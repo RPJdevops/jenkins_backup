@@ -1,0 +1,22 @@
+Started by GitHub push by RPJdevops
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/RPJdevops/c-projectnew.git # timeout=10
+Fetching upstream changes from https://github.com/RPJdevops/c-projectnew.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/RPJdevops/c-projectnew.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 73f8e4cf1a2bfbf509a872c4ec57f624e2437245 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 73f8e4cf1a2bfbf509a872c4ec57f624e2437245 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk c8559d8a09161385d4bfabde1e0822b1a47f0a2e # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins13942034869832429907.sh
++ echo 'new c project on jenkns new'
+new c project on jenkns new
+Finished: SUCCESS

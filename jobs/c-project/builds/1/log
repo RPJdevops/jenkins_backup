@@ -1,0 +1,25 @@
+Started by user [8mha:////4Nvelrse7FWelgfE08E5bT5aIz8KlJVk7U++Ql2+tpusAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZO/dLi1CL9ooIsAOPfK+W+AAAA[0mrahul
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/RPJdevops/c-projectnew.git
+ > git init /var/lib/jenkins/workspace/c-project # timeout=10
+Fetching upstream changes from https://github.com/RPJdevops/c-projectnew.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/RPJdevops/c-projectnew.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/RPJdevops/c-projectnew.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c8559d8a09161385d4bfabde1e0822b1a47f0a2e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c8559d8a09161385d4bfabde1e0822b1a47f0a2e # timeout=10
+Commit message: "Update big3.c"
+First time build. Skipping changelog.
+[c-project] $ /bin/sh -xe /tmp/jenkins4507325470605010919.sh
++ echo 'new c project on jenkns new'
+new c project on jenkns new
+Finished: SUCCESS
